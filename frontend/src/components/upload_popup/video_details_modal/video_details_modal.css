@@ -1,0 +1,99 @@
+.inputs{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    margin-bottom: 2em;
+}
+
+.input-title{
+    height: 30%;
+    font-family: "Roboto";
+    margin-bottom: 20px;
+}
+.input-desc{
+    height: 50%;
+    font-family: "Roboto";
+    margin-bottom: 20px;
+}
+
+.details-span{
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.details-popup{
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+
+.mini-video-file {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 25%; /* Set a fixed height */
+}
+.details-body{
+    width: 60%;
+    height: 100%;
+    
+}
+.mini-video{
+    display: flex;
+    width: 30%;
+    margin-left: 25px;
+}
+.details-modal{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.custom-file-upload {
+    border-style: dashed;
+    border-color: rgba(0, 0, 0, 0.107);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 6px 12px;
+    cursor: pointer;
+    width: 30%;
+    height: 20%;
+    font-size: 0.7em;
+    transition: border-color 0.3s ease;
+}
+.custom-file-upload:hover{
+    border-color: rgba(0, 0, 0, 0.228)
+    
+}
+
+.thumb-input {
+    display: none;
+}
+.thumbnail-body{
+    display: flex;
+    flex-direction: column;
+}
+.thumb-span{
+    font-weight: bold;
+}
+.thumb-detail{
+    font-size: 0.8em;
+    margin-bottom: 1em;
+}
+.details-modal{
+    margin-left: 34px;
+}
+.next-btn-container{
+    height: 10%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.details-span-container{
+    height: 10%;
+   
+}
+#canvas{
+    display: none;
+}

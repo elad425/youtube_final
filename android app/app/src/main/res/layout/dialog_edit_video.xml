@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <EditText
+        android:id="@+id/input_video_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/video_name"
+        android:autofillHints="name"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btn_select_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/red"
+        android:textColor="@color/white"
+        android:layout_marginTop="25dp"
+        android:text="@string/select_thumbnail" />
+
+    <Button
+        android:id="@+id/btn_select_video"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/red"
+        android:textColor="@color/white"
+        android:text="@string/select_video" />
+</LinearLayout>

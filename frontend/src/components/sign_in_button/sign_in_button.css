@@ -1,0 +1,11 @@
+.sign_in_button{
+    border-radius: 28px;
+    border: 5px;
+    padding: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.sign_in_button:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}

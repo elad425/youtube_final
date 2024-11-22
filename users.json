@@ -1,0 +1,7 @@
+[
+{"_id":{"$oid":"66764b6df3a4580cdd3a3523"},"username":"itay","email":"itaybendaniel@gmail.com","password":"itayitay1","icon":"uploads\\channels4_profile.jpg","updatedAt":{"$date":"2024-06-23T19:20:42.862Z"}},
+{"_id":{"$oid":"66845150d0e85eaf67901447"},"username":"elad2","icon":"uploads\\1719947599977-Screenshot 2024-06-25 115138.png","password":"itaythehacker1","email":"elad3@gmail.com","createdAt":{"$date":"2024-07-02T19:13:20.244Z"},"updatedAt":{"$date":"2024-07-02T19:13:20.244Z"},"__v":0,"videoLikes":[],"commentLikes":[]},
+{"_id":{"$oid":"66849f86be529a1992919669"},"username":"234","icon":"uploads\\1719967622033-Capture.PNG","password":"itaybendaniel@gmail.com1","email":"itaybendaniel1@gmail.com","createdAt":{"$date":"2024-07-03T00:47:02.245Z"},"updatedAt":{"$date":"2024-07-03T00:47:02.245Z"},"__v":0},
+{"_id":{"$oid":"6684b95cbc12069f11fea297"},"username":"itay2","email":"itaybendaniel2@gmail.com","password":"itayitay2","icon":"uploads\\channel_2.jpg","updatedAt":{"$date":"2024-06-23T19:20:42.862Z"}},
+{"_id":{"$oid":"6684be25bc12069f11fea2a8"},"username":"itay3","email":"itaybendaniel3@gmail.com","password":"itayitay3","icon":"uploads\\channel_3.jpg","updatedAt":{"$date":"2024-06-23T19:20:42.862Z"}}
+]

@@ -1,0 +1,42 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.box-area{
+    width: 900px;
+}
+::placeholder{
+    font-size: 15px;
+}
+.right-box{
+    padding: 40px 40px 40px 40px;
+}
+.left-box{
+    padding: 50px 50px 50px 50px;
+}
+.rounded-2{
+    border-radius: 30px;
+}
+.login{
+    background-color: #ad0f0f;
+}
+.rounded{
+    border-radius: 30px;
+}
+
+.submit-btn{
+
+    background-color: #000;
+    border-color: #000;
+    
+}
+
+.submit-btn:hover{
+
+    background-color: #ad0f0f;
+    border-color: #ad0f0f;
+    
+}
+body.dark-mode-enabled .small-a{
+    color: #0000EE;
+}

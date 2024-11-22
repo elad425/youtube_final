@@ -1,0 +1,33 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+::placeholder{
+    font-size: 15px;
+}
+.rounded-1{
+    border-radius: 30px;
+    width: 500px;
+}
+.signup{
+    background-color: #ad0f0f;
+}
+
+
+
+.sign-up-btn{
+
+    background-color: #000;
+    border-color: #000;
+    
+}
+
+.sign-up-btn:hover{
+
+    background-color: #ad0f0f;
+    border-color: #ad0f0f;
+    
+}
+.costume{
+    width: 190px;
+}

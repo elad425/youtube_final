@@ -1,0 +1,91 @@
+.under-btn{
+    background-color: rgba(0, 0, 0, 0.059);
+    border-color:black;
+    border: none;
+    border-left: 0.5px solid black;
+    transition: background-color 0.3s ease;
+}
+#like{
+    border: none;
+}
+.share-btn{
+    color: black;
+    border: none;
+}
+.under-btn:hover{
+    background-color:rgba(0, 0, 0, 0.094);
+    border-color:black;
+    color: black;
+}
+.under-video-btn-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.edit-video-body{
+    display: flex;
+    flex-direction: column;
+}
+.under-video-details-container{
+    background-color: rgb(242, 242, 242);
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+body.dark-mode-enabled .under-video-details-container {
+  
+    background-color: #222222;
+    
+}
+.under-video-desc{
+    font-family: "Roboto";
+}
+.active-btn svg{
+    fill: black;
+}
+.under-btn:active {
+    background-color: rgb(0, 0, 0);
+}
+.comments-title{
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 1em;
+}
+ 
+
+
+.under-btn:active:active {
+    background-color:rgba(0, 0, 0, 0.094);
+}  
+.views-under-span{
+    margin-right: 1em;
+}
+.edit-video-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.edit-container{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+}
+.edit-span{
+    font-weight: 600;
+    font-size: 1em;
+    margin-right: 1em;
+}
+.edit-textarea{
+    min-width: 50%;
+}
+.save-btn-container{
+    margin-top: 1em;
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}

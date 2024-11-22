@@ -1,0 +1,33 @@
+.video-watch-body {
+    margin-top: 2em;
+    overflow: auto;
+    display: flex;
+    width: 100%;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.video-desc-comments-container {
+    width: 90%; /* Adjust the width to take 90% of the space */
+    /* Ensure it grows to fill available space */
+}
+
+.video-side-bar {
+    width: 20%; 
+    margin-left: 2em;
+    margin-right: 1em;
+    
+     
+}
+
+.video-file {
+    border-radius: 1em;
+    height: 70vh;
+
+}
+
+.video-watch-title {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-top: 5em;
+}

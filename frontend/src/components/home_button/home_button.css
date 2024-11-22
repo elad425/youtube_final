@@ -1,0 +1,27 @@
+.home_button {
+    background: none;
+    border: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yt-image {
+    height: 20%;
+    max-width: 100px;
+    width: auto; /* Maintain aspect ratio */
+}
+.home_button_div{
+    height: 100%;
+}
+/* body.dark-mode-enabled .yt-image{
+    content: url("../../yt_logo_rgb_dark.png");
+    max-height: 50px;
+    max-width: 100px;
+}
+body:not(.dark-mode-enabled) .yt-image {
+    content: url("yt_logo_rgb_light.png");
+    max-height: 50px;
+    max-width: 100px;
+} */

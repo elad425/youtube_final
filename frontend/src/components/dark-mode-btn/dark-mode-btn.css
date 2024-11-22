@@ -1,0 +1,84 @@
+/* Default styles */
+body {
+    background-color: #FFF;
+    color: #000;
+}
+
+.darkmode-btn {
+    border: none;
+    background: none;
+    border-radius: 60%;
+    padding: 0.4em;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.darkmode-btn:hover {
+    background-color: black;
+}
+
+.darkmode-btn svg {
+    transition: filter 0.3s ease-in-out;
+}
+
+.darkmode-btn svg:hover {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(102deg) brightness(102%) contrast(101%);
+}
+
+/* Dark mode specific styles */
+body.dark-mode-enabled {
+    background-color: #0F0F0F;
+}
+
+body.dark-mode-enabled span {
+    color: white;
+}
+
+body.dark-mode-enabled p {
+    color: white;
+}
+
+body.dark-mode-enabled .filter_btn {
+    color: white;
+    background-color: #272727;
+}
+
+body.dark-mode-enabled button {
+    color: white;
+}
+
+body.dark-mode-enabled .sign_in_button {
+    color: black;
+}
+
+body.dark-mode-enabled a {
+    color: white;
+}
+
+body.dark-mode-enabled .filter_btn:hover {
+    color: white;
+    background-color: #3f3f3f;
+}
+
+body.dark-mode-enabled .search {
+    color: white;
+    background-color: #121212;
+    border: 1px solid #222222;
+}
+
+
+body.dark-mode-enabled .darkmode-btn:hover {
+    background-color: white;
+}
+
+body.dark-mode-enabled .darkmode-btn:hover svg {
+    filter: invert(0%) sepia(6%) saturate(24%) hue-rotate(189deg) brightness(92%) contrast(105%);
+}
+
+body.dark-mode-enabled svg:not(.home_button):not(.sign_in_button) {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(102deg) brightness(102%) contrast(101%);
+}
+
+body.dark-mode-enabled .home_button svg,
+body.dark-mode-enabled .sign_in_button svg {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(102deg) brightness(102%) contrast(101%);
+}

@@ -1,0 +1,10 @@
+.burger_menu{
+    background: none;
+    border: none;
+    border-radius: 50%;
+    padding: 0.5rem;
+    transition: box-shadow 0.3s ease;
+}
+.burger_menu:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.269);
+}
